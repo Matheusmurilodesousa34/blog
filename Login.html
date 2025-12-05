@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | BN</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <main>
+        <div class="form-card">
+            <h2>Acessar Conta</h2>
+            <form action="/login" method="post">
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required placeholder="Insira sua senha">
+                </div>
+                
+                <a class="submit-btn" href="index.html">Entrar</a>
+            </form>
+
+            <p class="link-alternativo">
+                Não tem conta? <a href="Cadastro.html">Cadastre-se aqui</a>
+            </p>
+        </div>
+    </main>
+</body>
+</html>

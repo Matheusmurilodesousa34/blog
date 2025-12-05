@@ -1,0 +1,176 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; 
+    color: #333;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(245, 1, 62);
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+form input {
+    border-radius: 20px;
+    border: none;
+    width: 400px;
+    height: 35px;
+    padding: 0 15px;
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
+main.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: rgb(245, 1, 62); 
+    color: #fff;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+
+.posts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.caixa-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px; 
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.caixa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.caixa-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.caixa-card p {
+    text-align: center;
+    margin: 15px;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+}
+
+
+footer {
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+.Ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

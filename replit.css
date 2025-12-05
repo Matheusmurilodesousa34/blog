@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+.caixa {
+  background-color: white;
+  max-width: 800px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+  padding: 40px;
+  border-radius: 8px;
+
+}
+
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+header {
+  background-color: rgb(245, 1, 62);
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 2rem;
+  border: 2px;
+  border-radius: 20px;
+  margin-top: -18px;
+}
+
+button {
+  border: 7px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 91%;
+  height: 30px;
+  width: 80px;
+  background-color: #006ec2;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  background: #ff0000;
+  border: 2px;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+footer {
+  background-color: #006ec2;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 2rem;
+  border: 2px;
+  border-radius: 20px;
+  margin-top: 30px;
+}

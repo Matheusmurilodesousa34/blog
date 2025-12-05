@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | BN</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <main>
+        <div class="form-card">
+            <h2>Criar Nova Conta</h2>
+            <form action="/cadastro" method="post">
+                
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Criar Senha:</label>
+                    <input type="password" id="password" name="password" required placeholder="Mínimo 8 caracteres">
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirm-password">Confirmar Senha:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Repita a senha">
+                </div>
+                <a href="index.html" class="submit-btn">Cadastrar</a>
+            </form>
+
+            <p class="link-alternativo">
+                Já tem conta? <a href="Login.html">Faça login aqui</a>
+            </p>
+        </div>
+    </main>
+</body>
+</html>
